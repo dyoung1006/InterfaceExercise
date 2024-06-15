@@ -31,7 +31,7 @@ namespace InterfaceExercise
             Console.WriteLine($"The {Model} has a full size trunk...");
         }
 
-        public void DisplayDetails() 
+        public void DisplayDetails()
         {
             Console.WriteLine($"The {CompanyName} has a logo of a {logo}, it boasts a engine size of {EngineSize}" +
                 $".  The base model is an {Model}, it " + (HasWheels == true ? "has wheels" : "doesnt have wheels") +
