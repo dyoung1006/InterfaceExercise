@@ -10,6 +10,5 @@ namespace InterfaceExercise
     {
         public string logo   { get; set; }
         public string CompanyName { get; set; }
-
     }
 }
